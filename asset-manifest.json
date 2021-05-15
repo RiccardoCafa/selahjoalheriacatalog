@@ -1,0 +1,28 @@
+{
+  "files": {
+    "main.css": "/selahjoalheriacatalog/static/css/main.2581824d.chunk.css",
+    "main.js": "/selahjoalheriacatalog/static/js/main.df0db676.chunk.js",
+    "main.js.map": "/selahjoalheriacatalog/static/js/main.df0db676.chunk.js.map",
+    "runtime-main.js": "/selahjoalheriacatalog/static/js/runtime-main.110a827f.js",
+    "runtime-main.js.map": "/selahjoalheriacatalog/static/js/runtime-main.110a827f.js.map",
+    "static/js/2.81daefdf.chunk.js": "/selahjoalheriacatalog/static/js/2.81daefdf.chunk.js",
+    "static/js/2.81daefdf.chunk.js.map": "/selahjoalheriacatalog/static/js/2.81daefdf.chunk.js.map",
+    "index.html": "/selahjoalheriacatalog/index.html",
+    "static/css/main.2581824d.chunk.css.map": "/selahjoalheriacatalog/static/css/main.2581824d.chunk.css.map",
+    "static/js/2.81daefdf.chunk.js.LICENSE.txt": "/selahjoalheriacatalog/static/js/2.81daefdf.chunk.js.LICENSE.txt",
+    "static/media/aneis.916ee10a.jpg": "/selahjoalheriacatalog/static/media/aneis.916ee10a.jpg",
+    "static/media/brincos.51eee408.jpg": "/selahjoalheriacatalog/static/media/brincos.51eee408.jpg",
+    "static/media/colares.fc0641fe.jpg": "/selahjoalheriacatalog/static/media/colares.fc0641fe.jpg",
+    "static/media/logo.dd24d148.png": "/selahjoalheriacatalog/static/media/logo.dd24d148.png",
+    "static/media/pingentes.2b4d6b5e.png": "/selahjoalheriacatalog/static/media/pingentes.2b4d6b5e.png",
+    "static/media/pratas.4ed276fe.jpg": "/selahjoalheriacatalog/static/media/pratas.4ed276fe.jpg",
+    "static/media/pulseiras.d5c20183.jpg": "/selahjoalheriacatalog/static/media/pulseiras.d5c20183.jpg",
+    "static/media/tornozeleiras.437a92ab.jpg": "/selahjoalheriacatalog/static/media/tornozeleiras.437a92ab.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.110a827f.js",
+    "static/js/2.81daefdf.chunk.js",
+    "static/css/main.2581824d.chunk.css",
+    "static/js/main.df0db676.chunk.js"
+  ]
+}

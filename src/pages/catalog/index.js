@@ -32,7 +32,7 @@ function Catalog() {
           paddingLeft: "1.5rem",
         }}
       >
-        <Button icon basic labelPosition="left">
+        <Button icon basic labelPosition="left" onClick={() => goHome()}>
           <Icon name="home" />
           Voltar
         </Button>

@@ -8,7 +8,6 @@ function CatalogButton(props) {
   const { setCatalog } = useContext(CatalogoContext);
 
   function goToCatolg() {
-    console.log(props.catalog);
     setCatalog(props.catalog);
     history.push("/catalog/");
   }

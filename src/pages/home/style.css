@@ -33,10 +33,11 @@
 
 .title {
   font-family: "Newsreader";
-  font-weight: 600;
+  font-size: 2rem;
+  font-weight: 800;
 }
 
 .subtitle {
   font-family: "Newsreader";
-  font-weight: 400;
+  font-weight: 600;
 }

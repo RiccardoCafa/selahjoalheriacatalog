@@ -14,3 +14,13 @@
     width: 100%;
   }
 }
+
+.back-button {
+  width: 60;
+  height: 60;
+  border-radius: 30;
+  background-color: "#ee6e73";
+  position: relative;
+  bottom: 10;
+  right: 10;
+}

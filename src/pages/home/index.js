@@ -1,4 +1,4 @@
-import React, { useState, useEffect, createContext } from "react";
+import React, { useState, useEffect } from "react";
 import logo from "../../assets/logo.png";
 import "./style.css";
 
@@ -17,7 +17,6 @@ function importAll(r) {
 }
 
 function Home() {
-  const MyContext = createContext({});
   const [aneisCatalog, setAneisCatalog] = useState([]);
   const [colaresCatalog, setColaresCatalog] = useState([]);
   const [brincosCatalog, setBrincosCatalog] = useState([]);
@@ -96,19 +95,20 @@ function Home() {
     <div className="container">
       <h1
         className="title"
-        style={{ marginTop: "3rem", marginBottom: ".4rem" }}
+        style={{ marginTop: "3rem", marginBottom: ".1rem" }}
       >
         Catálogo
       </h1>
-      <h1 className="title" style={{ marginTop: ".4rem" }}>
+      {/* <h1 className="title" style={{ marginTop: ".4rem" }}>
         SELAH
-      </h1>
+      </h1> */}
       <img className="logo" src={logo} alt="selah"></img>
       <p
         style={{
           fontFamily: "Newsreader",
-          marginTop: "2rem",
+          marginTop: ".3rem",
           fontSize: "1.1rem",
+          fontWeight: 600,
         }}
       >
         Seja bem-vinda ao nosso catálogo!
@@ -159,7 +159,7 @@ function Home() {
         }}
       ></div>
       <footer style={{ marginBottom: "1rem" }}>
-        <p style={{ fontFamily: "Newsreader" }}>
+        <p style={{ fontFamily: "Newsreader", fontWeight: 600 }}>
           2021 Selah Joalheria. Todos os direitos reservados.
         </p>
       </footer>

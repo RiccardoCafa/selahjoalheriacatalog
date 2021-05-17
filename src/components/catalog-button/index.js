@@ -1,15 +1,16 @@
-import React, { useState } from "react";
+import React, { useContext } from "react";
+import { useHistory } from "react-router-dom";
+import { CatalogoContext } from "../../contexts/CatalogoContext";
 import "./style.css";
 
 function CatalogButton(props) {
-  const [showTitle, setShowTitle] = useState(false);
+  let history = useHistory();
+  const { setCatalog } = useContext(CatalogoContext);
 
-  function onEnter() {
-    setShowTitle(true);
-  }
-
-  function onExit() {
-    setShowTitle(false);
+  function goToCatolg() {
+    console.log(props.catalog);
+    setCatalog(props.catalog);
+    history.push("/catalog/");
   }
 
   return (
@@ -17,10 +18,9 @@ function CatalogButton(props) {
       <button
         width="100%"
         className="butao-catalog"
-        onMouseEnter={() => onEnter()}
-        onMouseLeave={() => onExit()}
+        onClick={() => goToCatolg()}
       >
-        <img src={props.image}></img>
+        <img src={props.image} alt="clica para acessar o catalogo"></img>
       </button>
       <p className="subtitle">{props.name}</p>
     </div>

@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/selahjoalheriacatalog/static/css/main.afe9e10f.chunk.css",
-    "main.js": "/selahjoalheriacatalog/static/js/main.5390b98a.chunk.js",
-    "main.js.map": "/selahjoalheriacatalog/static/js/main.5390b98a.chunk.js.map",
+    "main.js": "/selahjoalheriacatalog/static/js/main.2f81227d.chunk.js",
+    "main.js.map": "/selahjoalheriacatalog/static/js/main.2f81227d.chunk.js.map",
     "runtime-main.js": "/selahjoalheriacatalog/static/js/runtime-main.110a827f.js",
     "runtime-main.js.map": "/selahjoalheriacatalog/static/js/runtime-main.110a827f.js.map",
-    "static/js/2.ca8065dc.chunk.js": "/selahjoalheriacatalog/static/js/2.ca8065dc.chunk.js",
-    "static/js/2.ca8065dc.chunk.js.map": "/selahjoalheriacatalog/static/js/2.ca8065dc.chunk.js.map",
+    "static/js/2.b66e825c.chunk.js": "/selahjoalheriacatalog/static/js/2.b66e825c.chunk.js",
+    "static/js/2.b66e825c.chunk.js.map": "/selahjoalheriacatalog/static/js/2.b66e825c.chunk.js.map",
     "index.html": "/selahjoalheriacatalog/index.html",
     "static/css/main.afe9e10f.chunk.css.map": "/selahjoalheriacatalog/static/css/main.afe9e10f.chunk.css.map",
-    "static/js/2.ca8065dc.chunk.js.LICENSE.txt": "/selahjoalheriacatalog/static/js/2.ca8065dc.chunk.js.LICENSE.txt",
+    "static/js/2.b66e825c.chunk.js.LICENSE.txt": "/selahjoalheriacatalog/static/js/2.b66e825c.chunk.js.LICENSE.txt",
     "static/media/0.png": "/selahjoalheriacatalog/static/media/0.d1261c47.png",
     "static/media/1.png": "/selahjoalheriacatalog/static/media/1.cf3d2d1c.png",
     "static/media/10.png": "/selahjoalheriacatalog/static/media/10.e53fc354.png",
@@ -86,8 +86,8 @@
   },
   "entrypoints": [
     "static/js/runtime-main.110a827f.js",
-    "static/js/2.ca8065dc.chunk.js",
+    "static/js/2.b66e825c.chunk.js",
     "static/css/main.afe9e10f.chunk.css",
-    "static/js/main.5390b98a.chunk.js"
+    "static/js/main.2f81227d.chunk.js"
   ]
 }

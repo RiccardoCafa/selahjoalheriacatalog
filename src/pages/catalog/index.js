@@ -1,7 +1,7 @@
 import React, { useContext, useEffect } from "react";
 import { useHistory } from "react-router-dom";
 import { CatalogoContext } from "../../contexts/CatalogoContext";
-import { Icon, Menu } from "semantic-ui-react";
+import { Button, Icon } from "semantic-ui-react";
 
 import "./style.css";
 
@@ -20,29 +20,37 @@ function Catalog() {
   }
 
   return (
-    <div>
-      <Menu fixed="top" icon="labeled">
-        <Menu.Item name="house" onClick={() => goHome()}>
-          <Icon name="home"></Icon>
-          Home
-        </Menu.Item>
-      </Menu>
-      <div className="container">
-        {catalog === undefined || catalog.length === 0 ? (
-          <div>
-            <p>Ops! Não encontrei o que foi solicitado.</p>
-          </div>
-        ) : (
-          catalog.map((image, key) => (
-            <img
-              className="catalog-img"
-              src={image.default}
-              key={key}
-              alt="gostou? tira print e mande para o nosso whatsapp"
-            ></img>
-          ))
-        )}
+    <div className="container">
+      <div
+        style={{
+          marginTop: "1rem",
+          marginBottom: "1rem",
+          display: "flex",
+          justifyItems: "left",
+          alignContent: "flex-start",
+          width: "100%",
+          paddingLeft: "1.5rem",
+        }}
+      >
+        <Button icon basic labelPosition="left">
+          <Icon name="home" />
+          Voltar
+        </Button>
       </div>
+      {catalog === undefined || catalog.length === 0 ? (
+        <div>
+          <p>Ops! Não encontrei o que foi solicitado.</p>
+        </div>
+      ) : (
+        catalog.map((image, key) => (
+          <img
+            className="catalog-img"
+            src={image.default}
+            key={key}
+            alt="gostou? tira print e mande para o nosso whatsapp"
+          ></img>
+        ))
+      )}
     </div>
   );
 }
